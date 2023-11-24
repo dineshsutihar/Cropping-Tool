@@ -8,22 +8,19 @@
 2. **Crop Tool:**
    - Provide a simple tool to define and adjust the crop area either by dragging corners or entering dimensions.
 
-3. **Preview Feature:**
+3. **Preview Feature(Real-time):**
    - Offer a preview window showing the selected crop area before finalizing the changes.
 
 4. **Aspect Ratio Options:**
    - Include preset aspect ratios (like square, landscape, or portrait) for quick adjustments.
 
-5. **Save/Export:**
+5. **Save/Export(Save As):**
    - Allow users to save or download the cropped image in popular formats (JPEG, PNG).
 
 6. **Undo/Reset:**
    - Provide an option to undo cropping actions or reset to the original image.
 
-7. **Compatibility:**
-   - Ensure compatibility with common operating systems (Windows, macOS) or as a web-based tool accessible across different browsers.
-
-8. **Zoom Functionality:**
+7. **Zoom Functionality:**
    - Allow users to zoom in and out of the image for precise adjustments during cropping.
 
 9. **Rotate Option:**
@@ -38,12 +35,12 @@
 12. **Keyboard Shortcuts:**
     - Include keyboard shortcuts for common actions such as undo, redo, and specific tool selections.
 
-13. **Multiple Image Support:**
+13. **Multiple Image Support (Optional):**
     - Enable users to work with and crop multiple images simultaneously.
 
-14. **History Tracking:**
+14. **History Tracking:(5 Steps Back and Forth)**
     - Maintain a history of cropping actions, allowing users to navigate through and revert to previous states.
-
+---
 ## Non-Functional Requirements:
 
 1. **User-Friendly Interface:**
@@ -61,49 +58,47 @@
 5. **Scalability:**
    - Design the software to handle potential future updates or increased usage without compromising performance.
 
-6. **Accessibility:**
+6. **Accessibility (Optional):**
    - Make the software accessible to users with disabilities, following basic accessibility guidelines.
 
 7. **Cross-Device Compatibility:**
-   - Ensure the cropping tool is responsive and functions well on various devices, including desktops, tablets, and mobile phones.
+   - Ensure the cropping tool is responsive and functions well on various size of devices, including desktops and laptops.
 
-8. **Multilingual Support:**
+8. **Multilingual Support (Optional,Current English):**
    - Provide support for multiple languages to cater to a diverse user base.
 
-9. **Customization Options:**
+9. **Customization Options:(Optional)**
    - Allow users to customize the appearance of the cropping tool, such as theme selection or UI layout preferences.
 
 10. **Offline Mode:**
     - If applicable, implement a feature that allows users to use the cropping tool offline, with the option to sync changes when back online.
 
-11. **Scalable Architecture:**
+11. **Scalable Architecture:(Optional)**
     - Design the software architecture to scale efficiently as the user base and feature set grow.
 
+---
 ## System Requirements:
 
 1. **Operating System:**
-   - Support common operating systems like Windows 10, macOS, and various Linux distributions.
+   - Specify the supported operating systems (Windows 8 or latest) for running the desktop application.
 
-2. **Hardware Requirements:**
-   - Specify minimum hardware requirements such as processor, RAM, and storage space for smooth operation.
+2. **Processor:**
+   - Minimum processor requirements (Intel Core i3 or equivalent) for smooth operation.
 
-3. **Browser Compatibility:**
-   - If web-based, ensure compatibility across popular browsers like Chrome, Firefox, Safari, and Edge.
+3. **RAM (Memory):**
+   - Specify the minimum and recommended RAM requirements ( 4GB minimum) for optimal performance.
 
-4. **Software Dependencies:**
-   - Identify and specify any required libraries or third-party tools necessary for the software's functioning.
+4. **Storage Space:**
+   - Define the amount of disk space needed for installing the application (e.g., 100MB minimum).
 
-5. **File Format Support:**
-   - Specify the supported input image formats (e.g., JPEG, PNG, GIF) for compatibility.
+5. **Display:**
+   - Specify the minimum screen resolution and color depth required for the application.
 
-6. **Auto-Save Functionality:**
-   - Include an auto-save feature that periodically saves the user's progress during the cropping process.
+6. **Input Devices:**
+   - List compatible input devices such as keyboard, mouse, or touchscreen if applicable.
 
-7. **Integration Capabilities:**
-   - If applicable, provide APIs or integration options for connecting the cropping tool with other software or platforms.
+8. **Software Dependencies:**
+   - Identify any necessary software dependencies, frameworks, or runtime environments required for the application to run.
 
-8. **Mobile App Requirements:**
-   - If developing a mobile app version, outline specific requirements for iOS and Android platforms.
-
-9. **System Resource Monitoring:**
-   - Implement a mechanism to monitor system resource usage during cropping to prevent excessive resource consumption.
+9. **Additional Notes:**
+    - Any additional hardware or software requirements specific to your application.
